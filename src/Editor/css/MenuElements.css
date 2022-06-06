@@ -1,0 +1,52 @@
+
+.chordMenu{
+
+
+}
+.dynMenu{
+    display: flex;
+    margin-top: 5px;
+    font-style: italic;
+    /*to not loose selection*/
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.activeChords {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-direction: column;
+    width: max-content;
+    left: 120%;
+    border-style: groove;
+    /*to not loose selection*/
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.menuElement{
+    background-color: darkslategrey;
+    flex: 1;
+    text-align: center;
+    
+}
+.menuElement:hover {
+    background-color: rgb(30, 49, 49);
+    cursor:pointer;
+}
+.activeChordsElement {
+    min-width: 16.66%;
+    background-color: darkslategrey;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    font-size: 100%;
+}
+    .activeChordsElement:hover {
+        background-color: rgb(30, 49, 49);
+        cursor:pointer;
+    }

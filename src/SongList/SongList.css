@@ -1,0 +1,12 @@
+.songList{
+    margin: 5% auto;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.songLink{
+display: inline-block;
+margin-left: 10px;
+}

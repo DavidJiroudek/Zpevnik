@@ -1,0 +1,42 @@
+.loginPopup {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(1, 162, 173, 0.60);
+}
+
+.authMenu {
+    width: 20%;
+    height: 60%;
+    margin: 10% auto;
+    border-style: double;
+    border-color: darkgray;
+    background-color: white;
+}
+
+.loginForm {
+    display: flex;
+    width: 70%;
+    height: 50%;
+    margin: 20% auto;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.loginButton {
+    margin: 10% auto;
+    background-color: lightblue;
+    padding: 10px;
+
+}
+
+.exitButton {
+    float: right;
+    padding: 10px 10px;
+    background-color: lightblue;
+}
+
+.exitButton:hover {
+    background-color: rgb(97, 184, 212);
+}

@@ -1,0 +1,10 @@
+.editMenu{
+    border-style: groove;
+    margin-top: 15%;
+}
+.verseMenu{
+    display: flex;
+    flex-direction: column;
+    
+
+}

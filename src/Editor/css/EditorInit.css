@@ -1,0 +1,39 @@
+﻿
+.songProps{
+    margin-top: 2%;
+    display: inline-flex;
+    position: absolute;
+    width: 20%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.songEditArea {
+    display: block;
+    height: 600px;
+    margin: 2% auto;
+    width: 40%;
+    margin-left: auto;
+    border-style: groove;
+    padding: 2% 3%;
+    white-space: pre-wrap;
+}
+.isEditBtn {
+    background-color: grey;
+    padding: 5px;
+    border-style: groove;
+    margin: auto;
+    display: flex;
+    width: max-content;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+
+

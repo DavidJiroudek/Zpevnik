@@ -1,0 +1,33 @@
+.editArea{
+    position: absolute;
+    width: 40%;
+    border-style: groove;
+    padding: 4% 3%;
+    margin-top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.menu{
+    width: 10%;
+    border-style: groove;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+}
+.verse{
+    display: inline-block;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.row{
+    margin-bottom: 2%;
+    white-space: pre;
+}
+.sendingButton{
+    position: absolute;
+    top: 650px;
+    left: 90%
+
+}
