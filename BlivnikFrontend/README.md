@@ -1,0 +1,1 @@
+Aplikace pro ukládání písní s akordy a ostatními hudebními znaèkami, zamìøená a uivatelskou pøívìtivost díky vyhnutí sloitım syntaxím pøi pøidávání skladby.

@@ -1,0 +1,12 @@
+**/Debug/
+**/Release/
+*/bin/
+*/obj/
+*/.vs/
+*/.vscode/
+*/.nuget/
+*.user 
+*/Source/packages/
+BlivnikApi/api/node_modules/
+BlivnikFrontend/node_modules/
+database/journal/
